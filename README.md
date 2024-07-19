@@ -16,9 +16,6 @@ Here is my code submission as the solution to the technical test. The instructio
 
 ## Installation
 
-> **:warning:**
-> &nbsp;Ensure that nodejs is installed and in your PATH
-
 ```bash
 # Clone the repository
 
@@ -27,7 +24,17 @@ git clone https://github.com/quentinlamamy/lazy-cat.git
 
 ## Run
 
+> **:warning:**
+> &nbsp;Ensure that nodejs is installed and in your PATH
+
 ```bash
+# Filtering
+node app.js --filter=<filterString>
+
+# Counting
+node app.js --count
+
+# Filtering and counting
 node app.js --filter=<filterString>
 ```
 
