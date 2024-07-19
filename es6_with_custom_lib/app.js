@@ -12,8 +12,6 @@ try {
     // Get the arguments
     const argvs = Utils.getArgv()
 
-    console.log(argvs);
-
     // Check if filter argument is provided
     const hasFilter = (argvs.hasOwnProperty("filter") && argvs["filter"].type === "argv" && argvs["filter"].value !== undefined);
     if (hasFilter){
