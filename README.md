@@ -2,7 +2,7 @@
 
 # lazy-cat
 
-<img src="lazy-adeo.webp?raw=true" alt="lazy-adeo" width="200"/>
+<img src="img/lazy-adeo.webp?raw=true" alt="lazy-adeo" width="200"/>
     
 ![Node](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 
