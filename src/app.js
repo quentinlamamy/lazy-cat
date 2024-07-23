@@ -14,14 +14,14 @@ try {
     const hasFilter = (argvs.hasOwnProperty("filter") && argvs["filter"].type === "argv" && argvs["filter"].value !== undefined);
     if (hasFilter){
         workingData = filterByAnimalsName(workingData, argvs["filter"].value);
-        console.log(workingData);
+        console.log(JSON.stringify(workingData,null,2));
     }
 
     // Check if count flag is provided
     const hasCount = (argvs.hasOwnProperty("count") && argvs["count"].type === "flag");
     if (hasCount){
         workingData = updateNamesWithCounts(workingData);
-        console.log(workingData);
+        console.log(JSON.stringify(workingData,null,2));
     }
 
 } catch (error) {
