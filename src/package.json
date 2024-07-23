@@ -1,0 +1,15 @@
+{
+  "name": "lazy-cats",
+  "version": "1.0.0",
+  "description": "A technical test for my job application at Lazy Cats Corp",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "filter": "node app.js --filter=ry",
+    "count": "node app.js --count",
+    "both": "node app.js --filter=ry --count",
+    "test": "clear;node --test --test-reporter=dot tests/*.test.js",
+    "verboseTest": "clear;node --test tests/*.test.js"
+  },
+  "author": "Quentin Lamamy <contact@quentin-lamamy.fr>"
+}
