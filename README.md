@@ -25,7 +25,7 @@ git clone https://github.com/quentinlamamy/lazy-cat.git
 ## Run
 
 > **:warning:**
-> &nbsp;Ensure that nodejs is installed and in your PATH and not a too old version, i'm on latest (spec doesn't specify a version ¯\_(ツ)_/¯ )
+> &nbsp;Ensure that nodejs is installed and in your PATH and not a too old version, i'm on latest (spec doesn't specify a version ¯\\_(ツ)_/¯ )
 
 ```bash
 # Filtering
